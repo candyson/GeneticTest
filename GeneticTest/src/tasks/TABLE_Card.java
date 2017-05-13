@@ -2,17 +2,17 @@ package tasks;
 
 import java.util.ArrayList;
 
-import constants.Constants_Cards;
+import constants.*;
 
 public class TABLE_Card {
 	
 	private static ArrayList<BASE_Card> deck = new ArrayList<BASE_Card>();
-	private static final int suits = Card_Constants.numberOfSuits;
-	private static final int values = Card_Constants.numberOfCardsPerSuit ;
-	private static final String suit1 = Card_Constants.suit1;
-	private static final String suit2 = Card_Constants.suit2;
-	private static final String suit3 = Card_Constants.suit3;
-	private static final String suit4 = Card_Constants.suit4;
+	private static final int suits = Constants_Cards.numberOfSuits;
+	private static final int values = Constants_Cards.numberOfCardsPerSuit ;
+	private static final String suit1 = Constants_Cards.suit1;
+	private static final String suit2 = Constants_Cards.suit2;
+	private static final String suit3 = Constants_Cards.suit3;
+	private static final String suit4 = Constants_Cards.suit4;
 
 	private static boolean isInit = false; 
 	

@@ -41,6 +41,10 @@ public class Gene {
 		return traits.get(i);
 	}
 	
+	public Trait[] getTrait(){
+		return (Trait[]) traits.toArray();
+	}
+	
 	public int getNumberOfTraits(){
 		return traits.size();
 	}

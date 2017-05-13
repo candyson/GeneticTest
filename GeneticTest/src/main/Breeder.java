@@ -87,15 +87,15 @@ public class Breeder {
 		byte c = 0;
 		if(Math.random() < mutChance){
 			if(a > 0){
-				a = (byte) (67 -a);
+				a = (byte) (50 -a);
 			} else if(a < 0){
-				a = (byte) (-67 -a);
+				a = (byte) (-50 -a);
 			}
 			
 			if(b > 0){
-				b = (byte) (57 -b);
+				b = (byte) (50 -b);
 			}else if(b < 0){
-				b = (byte) (-57 -b);
+				b = (byte) (-50 -b);
 			}
 		}
 		if(Math.random() >= defaultGeneParentARate){
